@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navber";
-import Home from "./components/Home";
-import About from "./components/about";
-import Contact from "./components/Contact";
-import Products from "./components/Products";
-import Product from "./components/Product";
+import Navbar from "./components/Navber.jsx";
+import Home from "./components/Home.jsx";
+import About from "./components/about.jsx";
+import Contact from "./components/contact.jsx";
+import Products from "./components/Products.jsx";
+import Product from "./components/Product.jsx";
 
 export default function App() {
   const productList = [
