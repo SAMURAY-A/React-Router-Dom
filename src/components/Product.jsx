@@ -8,7 +8,7 @@ export default function Product({ productList }) {
   const value = productList.find((product) => product.id === productId);
 
   return (
-    <div className="p-4">
+    <div className="p-4 ">
       <div>
         <h2>title: {value.name}</h2>
         <p>body: {value.title}</p>
